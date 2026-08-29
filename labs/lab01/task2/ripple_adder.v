@@ -21,6 +21,7 @@ module ripple_adder(
 );
 
   wire c1, c2, c3;
+
 FA_Gate FA0 (
     .a    (a[0]),
     .b    (b[0]),
